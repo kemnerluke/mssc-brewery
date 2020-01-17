@@ -16,5 +16,14 @@ public class CustomerServiceImpl implements CustomerService{
                 .customerName("john doe")
                 .build();
     }
+
+
+    public CustomerDTO saveNewCustomer(CustomerDTO customerDto) {
+        return CustomerDTO.builder()
+                .id(UUID.randomUUID())
+                .build();
+    }
+
+
     }
 
