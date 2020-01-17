@@ -44,6 +44,11 @@ private CustomerService customerService;
         customerService.updateCustomer(customerId, customerDto);
     }
 
+    @DeleteMapping("/{customerId}")
+    public void deleteById(@PathVariable("customerId")  UUID customerId){
+        customerService.deleteById(customerId);
+    }
+
 
 
 
