@@ -38,5 +38,13 @@ private CustomerService customerService;
         return new ResponseEntity(httpHeaders, HttpStatus.CREATED);
     }
 
+    @PutMapping("/{customerId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void handleUpdate(@PathVariable("customerId") UUID customerId, CustomerDTO customerDto){
+        customerService.updateCustomer(customerId, customerDto);
+    }
+
+
+
 
 }
