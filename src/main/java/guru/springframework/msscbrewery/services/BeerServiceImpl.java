@@ -21,5 +21,9 @@ public class BeerServiceImpl implements BeerService {
                 .build();
     }
 
+    public void updateBeer(UUID beerId, BeerDTO beerDto) {
+        //todo impl - would add a real impl to update beer
+    }
+
 
 }
