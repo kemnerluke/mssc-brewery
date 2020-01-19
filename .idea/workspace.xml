@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8ec4d9-b638-4b6c-8cc7-c669bd6b2f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/domain/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/mappers/BeerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/model/BeerStyleEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/mappers/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mssc-brewery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mssc-brewery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/controller/BeerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/model/BeerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/msscbrewery/web/model/BeerDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +81,7 @@
       <workItem from="1579216910689" duration="4050000" />
       <workItem from="1579230592982" duration="2415000" />
       <workItem from="1579269262992" duration="2796000" />
-      <workItem from="1579393860581" duration="4041000" />
+      <workItem from="1579393860581" duration="5882000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579217334010</created>
@@ -138,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579232099857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added beer mapper">
+      <created>1579405342585</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579405342585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,33 +153,34 @@
     <MESSAGE value="added customer save functionality" />
     <MESSAGE value="added customer update functionality" />
     <MESSAGE value="added customer delete functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added customer delete functionality" />
+    <MESSAGE value="added beer mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="added beer mapper" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1063" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579210513758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1063" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579210513758" />
-    <state x="404" y="20" key="CommitChangelistDialog2" timestamp="1579232098794">
+    <state x="404" y="20" key="CommitChangelistDialog2" timestamp="1579405341618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="404" y="20" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579232098794" />
-    <state width="1089" height="209" key="GridCell.Tab.0.bottom" timestamp="1579405216115">
+    <state x="404" y="20" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579405341618" />
+    <state width="1089" height="209" key="GridCell.Tab.0.bottom" timestamp="1579406406088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1089" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579405216115" />
-    <state width="1089" height="209" key="GridCell.Tab.0.center" timestamp="1579405216115">
+    <state width="1089" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579406406087" />
+    <state width="1089" height="209" key="GridCell.Tab.0.center" timestamp="1579406406087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1089" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579405216115" />
-    <state width="1089" height="209" key="GridCell.Tab.0.left" timestamp="1579405216114">
+    <state width="1089" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579406406087" />
+    <state width="1089" height="209" key="GridCell.Tab.0.left" timestamp="1579406406087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1089" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579405216114" />
-    <state width="1089" height="209" key="GridCell.Tab.0.right" timestamp="1579405216115">
+    <state width="1089" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579406406087" />
+    <state width="1089" height="209" key="GridCell.Tab.0.right" timestamp="1579406406087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1089" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579405216115" />
+    <state width="1089" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579406406087" />
     <state width="1090" height="209" key="GridCell.Tab.1.bottom" timestamp="1579212313678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -199,10 +201,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="539" y="26" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579403213563" />
-    <state x="472" y="157" key="Vcs.Push.Dialog.v2" timestamp="1579232109494">
+    <state x="472" y="157" key="Vcs.Push.Dialog.v2" timestamp="1579405344949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="472" y="157" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579232109494" />
+    <state x="472" y="157" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579405344949" />
     <state x="187" y="124" width="1200" height="584" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1579197019840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
