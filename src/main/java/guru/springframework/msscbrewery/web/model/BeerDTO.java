@@ -17,10 +17,17 @@ import java.util.UUID;
 @Builder
 public class BeerDTO {
 
+
+    @Null
     private UUID id;
 
+    @NotBlank
     private String beerName;
-    private String beerStyle;
+
+    @NotBlank
+    private BeerStyleEnum beerStyle;
+
+    @Positive
     private Long upc;
 
     private OffsetDateTime createdDate;
